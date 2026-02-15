@@ -31,3 +31,10 @@ body{
     padding: 5px;
     border-radius: 5px;
 }
+
+#logOut{
+     background-color: hsl(271, 100%, 84%);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}

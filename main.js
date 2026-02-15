@@ -23,7 +23,7 @@ function logout() {
   localStorage.removeItem("user");
   sessionStorage.removeItem("user");
   document.cookie = "loginTime=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-  alert("დრო ამოწურა!");
+  alert("თქვენ გამოხვედით ანგარიშიდან!");
   document.getElementById("user").value = "";
   document.getElementById("pass").value = "";
 }
